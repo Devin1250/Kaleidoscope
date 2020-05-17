@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(App)", "..\Users\devin\Desktop\KO\cs506-multitask-overlay\App", "{896C66E0-5902-54E4-29FC-3E5453EEAC6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Desktop)", "..\Users\devin\Desktop", "{0E38D4E8-85BB-70F2-39E0-114491C7F7DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(KO)", "..\Users\devin\Desktop\KO", "{106E9C77-2FBE-FED8-8B75-A4DAA9409202}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Users)", "..\Users", "{83FD2216-DE8C-3729-D4EA-3618B14F3F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(cs506-multitask-overlay)", "..\Users\devin\Desktop\KO\cs506-multitask-overlay", "{3337F83E-A6ED-E739-70FA-CA99A2C1747F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(devin)", "..\Users\devin", "{30C8B9FF-1FFA-DA90-5AA2-9D36B7872829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\Users\devin\Desktop\KO\cs506-multitask-overlay\App\node_modules\node-addon-api", "{7ED3D8B0-7CEC-3F42-4710-8C19226BD105}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\Users\devin\Desktop\KO\cs506-multitask-overlay\App\node_modules", "{51F53C30-4F12-5C85-B5CC-02F0FFA44F39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\Users\devin\Desktop\KO\cs506-multitask-overlay\App\node_modules\node-addon-api\src", "{8BC884B1-FD17-DB6C-0872-E3E4F5F333F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "main", "main.vcxproj", "{F896C662-C5B4-953A-30B8-D64BB7E5F7D6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B64CADB8-CC35-F828-26CF-08CA4249E557} = {B64CADB8-CC35-F828-26CF-08CA4249E557}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{B64CADB8-CC35-F828-26CF-08CA4249E557}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64CADB8-CC35-F828-26CF-08CA4249E557}.Debug|x64.ActiveCfg = Debug|x64
+		{B64CADB8-CC35-F828-26CF-08CA4249E557}.Debug|x64.Build.0 = Debug|x64
+		{B64CADB8-CC35-F828-26CF-08CA4249E557}.Release|x64.ActiveCfg = Release|x64
+		{B64CADB8-CC35-F828-26CF-08CA4249E557}.Release|x64.Build.0 = Release|x64
+		{F896C662-C5B4-953A-30B8-D64BB7E5F7D6}.Debug|x64.ActiveCfg = Debug|x64
+		{F896C662-C5B4-953A-30B8-D64BB7E5F7D6}.Debug|x64.Build.0 = Debug|x64
+		{F896C662-C5B4-953A-30B8-D64BB7E5F7D6}.Release|x64.ActiveCfg = Release|x64
+		{F896C662-C5B4-953A-30B8-D64BB7E5F7D6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51F53C30-4F12-5C85-B5CC-02F0FFA44F39} = {896C66E0-5902-54E4-29FC-3E5453EEAC6B}
+		{106E9C77-2FBE-FED8-8B75-A4DAA9409202} = {0E38D4E8-85BB-70F2-39E0-114491C7F7DF}
+		{3337F83E-A6ED-E739-70FA-CA99A2C1747F} = {106E9C77-2FBE-FED8-8B75-A4DAA9409202}
+		{30C8B9FF-1FFA-DA90-5AA2-9D36B7872829} = {83FD2216-DE8C-3729-D4EA-3618B14F3F2D}
+		{896C66E0-5902-54E4-29FC-3E5453EEAC6B} = {3337F83E-A6ED-E739-70FA-CA99A2C1747F}
+		{0E38D4E8-85BB-70F2-39E0-114491C7F7DF} = {30C8B9FF-1FFA-DA90-5AA2-9D36B7872829}
+		{8BC884B1-FD17-DB6C-0872-E3E4F5F333F3} = {7ED3D8B0-7CEC-3F42-4710-8C19226BD105}
+		{7ED3D8B0-7CEC-3F42-4710-8C19226BD105} = {51F53C30-4F12-5C85-B5CC-02F0FFA44F39}
+		{B64CADB8-CC35-F828-26CF-08CA4249E557} = {8BC884B1-FD17-DB6C-0872-E3E4F5F333F3}
+	EndGlobalSection
+EndGlobal
